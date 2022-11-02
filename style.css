@@ -1,0 +1,104 @@
+:root {
+    font-size: 6.25%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #121214;
+    background-image: url(./assets/bg.svg);
+    background-position-x: center;
+    background-position-y: -715px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+#app {
+    width: fit-content;
+    margin: 52rem auto;
+}
+
+header {
+    margin-bottom: 63rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32rem;
+}
+
+.card {
+    padding: 32rem 23rem;
+    text-align: center;
+    background: #1d1c19;
+    border-bottom: 2rem solid #f7dd43;
+    border-radius: 6rem;
+}
+
+.card h2 {
+    display: flex;
+    gap: 16rem;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8rem 16rem;
+    border: 1rem solid #746615;
+    border-radius: 6rem;
+    font-size: 24rem;
+
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 53rem;
+
+    color: #F7DD43;
+}
+
+.card h2 span {
+    color: #E1E1E6;
+    font-size: 14rem;
+    text-transform: uppercase;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
+
+    width: 270rem;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card ul li + li {
+    padding-top: 24rem;
+    border-top: 1rem solid #323238;
+}
+
+
+.card ul li strong {
+
+    font-size: 36rem;
+    font-weight: 900;
+    line-height: 125%;
+    color: #E1E1E6;
+}
