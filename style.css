@@ -102,3 +102,12 @@ header {
     line-height: 125%;
     color: #E1E1E6;
 }
+
+@media (min-width: 680px) {
+    #cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
